@@ -49,6 +49,16 @@
         "runtime": {
           "lib/netstandard1.2/RT.Comb.dll": {}
         }
+      },
+      "N17Solutions.Identity.Responses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
+        }
       }
     }
   },
@@ -208,7 +218,7 @@
       ]
     },
     "RT.Comb/2.3.0": {
-      "sha512": "TS0zWccTfpaqreBKvWdjk6FwZJ6m7ZCdExihqNHU0fJNNqw4CpOnqczPxinTmR7z8j5brluzL7mNNJb95oztPg==",
+      "sha512": "QlVYGpMKMGynOBJHCNptUtj5OZILvnglWnwOuB2EBavasJgHf4BSLnOKb7H23Q3u97OqOk9M7yCwAqGg+uMMrA==",
       "type": "package",
       "path": "rt.comb/2.3.0",
       "files": [
@@ -218,10 +228,16 @@
         "rt.comb.2.3.0.nupkg.sha512",
         "rt.comb.nuspec"
       ]
+    },
+    "N17Solutions.Identity.Responses/1.0.0": {
+      "type": "project",
+      "path": "../Responses/Responses.csproj",
+      "msbuildProject": "../Responses/Responses.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "N17Solutions.Identity.Responses >= 1.0.0",
       "N17Solutions.Infrastructure.Domain >= 1.0.0-prerelease.1",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -255,7 +271,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Responses/Responses.csproj": {
+              "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Responses/Responses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -4707,6 +4707,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "N17Solutions.Identity.Domain": "1.0.0",
           "N17Solutions.Infrastructure.Data.EntityFramework": "1.0.0-prerelease.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
           "OpenIddict.EntityFrameworkCore": "2.0.0"
@@ -4722,6 +4723,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "N17Solutions.Identity.Responses": "1.0.0",
           "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1"
         },
         "compile": {
@@ -4775,6 +4777,16 @@
         },
         "runtime": {
           "bin/placeholder/N17Solutions.Identity.Requests.dll": {}
+        }
+      },
+      "N17Solutions.Identity.Responses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
         }
       }
     }
@@ -12723,6 +12735,11 @@
       "type": "project",
       "path": "../Requests/Requests.csproj",
       "msbuildProject": "../Requests/Requests.csproj"
+    },
+    "N17Solutions.Identity.Responses/1.0.0": {
+      "type": "project",
+      "path": "../Responses/Responses.csproj",
+      "msbuildProject": "../Responses/Responses.csproj"
     }
   },
   "projectFileDependencyGroups": {

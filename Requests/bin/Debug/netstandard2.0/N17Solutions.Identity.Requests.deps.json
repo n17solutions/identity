@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6e5fea1dd69ab0ad25c6f4bac4a27ce89619daff"
+    "signature": "7a90b7364dd8d5ba38cab8c7d7bc924f97b0da68"
   },
   "compilationOptions": {},
   "targets": {
@@ -739,7 +739,7 @@
       "N17Solutions.Infrastructure.Data.EntityFramework/1.0.0-prerelease.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.0",
-          "N17Solutions.Infrastructure.Domain": "0.0.1-prerelease.2"
+          "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1"
         },
         "runtime": {
           "lib/netstandard2.0/N17Solutions.Infrastructure.Data.EntityFramework.dll": {
@@ -748,7 +748,7 @@
           }
         }
       },
-      "N17Solutions.Infrastructure.Domain/0.0.1-prerelease.2": {
+      "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
         "dependencies": {
           "RT.Comb": "2.3.0"
         },
@@ -2010,12 +2010,22 @@
       },
       "N17Solutions.Identity.Data/1.0.0": {
         "dependencies": {
+          "N17Solutions.Identity.Domain": "1.0.0",
           "N17Solutions.Infrastructure.Data.EntityFramework": "1.0.0-prerelease.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
           "OpenIddict.EntityFrameworkCore": "2.0.0"
         },
         "runtime": {
           "N17Solutions.Identity.Data.dll": {}
+        }
+      },
+      "N17Solutions.Identity.Domain/1.0.0": {
+        "dependencies": {
+          "N17Solutions.Identity.Responses": "1.0.0",
+          "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1"
+        },
+        "runtime": {
+          "N17Solutions.Identity.Domain.dll": {}
         }
       },
       "N17Solutions.Identity.Library/1.0.0": {
@@ -2027,6 +2037,11 @@
         },
         "runtime": {
           "N17Solutions.Identity.Library.dll": {}
+        }
+      },
+      "N17Solutions.Identity.Responses/1.0.0": {
+        "runtime": {
+          "N17Solutions.Identity.Responses.dll": {}
         }
       }
     }
@@ -2464,12 +2479,12 @@
       "path": "n17solutions.infrastructure.data.entityframework/1.0.0-prerelease.1",
       "hashPath": "n17solutions.infrastructure.data.entityframework.1.0.0-prerelease.1.nupkg.sha512"
     },
-    "N17Solutions.Infrastructure.Domain/0.0.1-prerelease.2": {
+    "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JMUYcPQ72oJ2SYz4akvCBQn/OBTOht0nteMdwtbrotDGlbUk7ZHg+lZs7IaygDFHy8Law5WahgbxrGICzB1X8A==",
-      "path": "n17solutions.infrastructure.domain/0.0.1-prerelease.2",
-      "hashPath": "n17solutions.infrastructure.domain.0.0.1-prerelease.2.nupkg.sha512"
+      "sha512": "sha512-2kKyyF9uhN0AlfCsC9Hlp4DF0DJCs1tChq+4cD8LrB12sLloU9I1gf1FN7628BukJUSzHiUY1xYSn35ejatnsA==",
+      "path": "n17solutions.infrastructure.domain/1.0.0-prerelease.1",
+      "hashPath": "n17solutions.infrastructure.domain.1.0.0-prerelease.1.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
@@ -3218,7 +3233,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "N17Solutions.Identity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "N17Solutions.Identity.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "N17Solutions.Identity.Responses/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

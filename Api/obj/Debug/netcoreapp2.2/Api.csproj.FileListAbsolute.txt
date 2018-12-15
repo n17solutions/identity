@@ -23,3 +23,5 @@
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/obj/Debug/netcoreapp2.2/N17Solutions.Identity.Api.pdb
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/bin/Debug/netcoreapp2.2/N17Solutions.Identity.Requests.dll
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/bin/Debug/netcoreapp2.2/N17Solutions.Identity.Requests.pdb
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/bin/Debug/netcoreapp2.2/N17Solutions.Identity.Responses.dll
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/bin/Debug/netcoreapp2.2/N17Solutions.Identity.Responses.pdb

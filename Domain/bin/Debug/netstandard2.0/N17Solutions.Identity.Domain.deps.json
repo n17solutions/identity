@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "N17Solutions.Identity.Domain/1.0.0": {
         "dependencies": {
+          "N17Solutions.Identity.Responses": "1.0.0",
           "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1",
           "NETStandard.Library": "2.0.3"
         },
@@ -43,6 +44,11 @@
             "fileVersion": "2.3.0.0"
           }
         }
+      },
+      "N17Solutions.Identity.Responses/1.0.0": {
+        "runtime": {
+          "N17Solutions.Identity.Responses.dll": {}
+        }
       }
     }
   },
@@ -76,9 +82,14 @@
     "RT.Comb/2.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TS0zWccTfpaqreBKvWdjk6FwZJ6m7ZCdExihqNHU0fJNNqw4CpOnqczPxinTmR7z8j5brluzL7mNNJb95oztPg==",
+      "sha512": "sha512-QlVYGpMKMGynOBJHCNptUtj5OZILvnglWnwOuB2EBavasJgHf4BSLnOKb7H23Q3u97OqOk9M7yCwAqGg+uMMrA==",
       "path": "rt.comb/2.3.0",
       "hashPath": "rt.comb.2.3.0.nupkg.sha512"
+    },
+    "N17Solutions.Identity.Responses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

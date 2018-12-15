@@ -267,7 +267,7 @@
           "lib/netstandard2.0/N17Solutions.Infrastructure.Data.EntityFramework.dll": {}
         }
       },
-      "N17Solutions.Infrastructure.Domain/0.0.1-prerelease.2": {
+      "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
         "type": "package",
         "dependencies": {
           "RT.Comb": "2.3.0"
@@ -1083,6 +1083,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "N17Solutions.Identity.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "N17Solutions.Identity.Responses": "1.0.0",
+          "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1"
+        },
+        "compile": {
+          "bin/placeholder/N17Solutions.Identity.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N17Solutions.Identity.Domain.dll": {}
+        }
+      },
+      "N17Solutions.Identity.Responses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N17Solutions.Identity.Responses.dll": {}
+        }
       }
     }
   },
@@ -1449,14 +1473,14 @@
         "n17solutions.infrastructure.data.entityframework.nuspec"
       ]
     },
-    "N17Solutions.Infrastructure.Domain/0.0.1-prerelease.2": {
-      "sha512": "JMUYcPQ72oJ2SYz4akvCBQn/OBTOht0nteMdwtbrotDGlbUk7ZHg+lZs7IaygDFHy8Law5WahgbxrGICzB1X8A==",
+    "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
+      "sha512": "2kKyyF9uhN0AlfCsC9Hlp4DF0DJCs1tChq+4cD8LrB12sLloU9I1gf1FN7628BukJUSzHiUY1xYSn35ejatnsA==",
       "type": "package",
-      "path": "n17solutions.infrastructure.domain/0.0.1-prerelease.2",
+      "path": "n17solutions.infrastructure.domain/1.0.0-prerelease.1",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/N17Solutions.Infrastructure.Domain.dll",
-        "n17solutions.infrastructure.domain.0.0.1-prerelease.2.nupkg.sha512",
+        "n17solutions.infrastructure.domain.1.0.0-prerelease.1.nupkg.sha512",
         "n17solutions.infrastructure.domain.nuspec"
       ]
     },
@@ -1724,7 +1748,7 @@
       ]
     },
     "RT.Comb/2.3.0": {
-      "sha512": "TS0zWccTfpaqreBKvWdjk6FwZJ6m7ZCdExihqNHU0fJNNqw4CpOnqczPxinTmR7z8j5brluzL7mNNJb95oztPg==",
+      "sha512": "QlVYGpMKMGynOBJHCNptUtj5OZILvnglWnwOuB2EBavasJgHf4BSLnOKb7H23Q3u97OqOk9M7yCwAqGg+uMMrA==",
       "type": "package",
       "path": "rt.comb/2.3.0",
       "files": [
@@ -4255,10 +4279,21 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "N17Solutions.Identity.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "N17Solutions.Identity.Responses/1.0.0": {
+      "type": "project",
+      "path": "../Responses/Responses.csproj",
+      "msbuildProject": "../Responses/Responses.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "N17Solutions.Identity.Domain >= 1.0.0",
       "N17Solutions.Infrastructure.Data.EntityFramework >= 1.0.0-prerelease.1",
       "NETStandard.Library >= 2.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.2.0",
@@ -4294,7 +4329,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/Domain.csproj": {
+              "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

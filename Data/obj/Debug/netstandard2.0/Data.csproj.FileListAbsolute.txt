@@ -7,3 +7,8 @@
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/obj/Debug/netstandard2.0/Data.AssemblyInfo.cs
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/obj/Debug/netstandard2.0/N17Solutions.Identity.Data.dll
 /Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/obj/Debug/netstandard2.0/N17Solutions.Identity.Data.pdb
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/bin/Debug/netstandard2.0/N17Solutions.Identity.Domain.dll
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/bin/Debug/netstandard2.0/N17Solutions.Identity.Domain.pdb
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/obj/Debug/netstandard2.0/Data.csproj.CopyComplete
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/bin/Debug/netstandard2.0/N17Solutions.Identity.Responses.dll
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/bin/Debug/netstandard2.0/N17Solutions.Identity.Responses.pdb

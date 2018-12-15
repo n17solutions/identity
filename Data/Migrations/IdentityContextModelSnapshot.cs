@@ -19,6 +19,26 @@ namespace N17Solutions.Identity.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
+            modelBuilder.Entity("N17Solutions.Identity.Domain.Models.ClientApplications.AllowedResource", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("AllowedResourceClientId");
+
+                    b.Property<string>("ClientId");
+
+                    b.Property<DateTime>("DateCreated");
+
+                    b.Property<DateTime>("DateLastUpdated");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.ToTable("AllowedResource");
+                });
+
             modelBuilder.Entity("OpenIddict.EntityFrameworkCore.Models.OpenIddictApplication", b =>
                 {
                     b.Property<string>("Id")

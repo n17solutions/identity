@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>N17Solutions.Identity.Responses</AssemblyName>
+        <RootNamespace>N17Solutions.Identity.Responses</RootNamespace>
+    </PropertyGroup>
+
+</Project>
