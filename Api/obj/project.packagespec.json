@@ -1,0 +1,61 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/Api.csproj",
+    "projectName": "N17Solutions.Identity.Api",
+    "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/Api.csproj",
+    "outputPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Api/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Handlers/Handlers.csproj": {
+            "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Handlers/Handlers.csproj"
+          },
+          "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Library/Library.csproj": {
+            "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Library/Library.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

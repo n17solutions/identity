@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Requests/Requests.csproj",
+    "projectName": "N17Solutions.Identity.Requests",
+    "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Requests/Requests.csproj",
+    "outputPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Requests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Library/Library.csproj": {
+            "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Library/Library.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "MediatR.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[6.0.1, )"
+        },
+        "Mediatr": {
+          "target": "Package",
+          "version": "[6.0.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

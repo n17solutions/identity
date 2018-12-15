@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/Data.csproj",
+    "projectName": "N17Solutions.Identity.Data",
+    "projectPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/Data.csproj",
+    "outputPath": "/Users/wooderz/Development/N17 Solutions/Identity/Identity/Data/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "N17Solutions.Infrastructure.Data.EntityFramework": {
+          "target": "Package",
+          "version": "[1.0.0-prerelease.1, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "OpenIddict.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

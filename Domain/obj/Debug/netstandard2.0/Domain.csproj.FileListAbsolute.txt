@@ -1,0 +1,9 @@
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/bin/Debug/netstandard2.0/N17Solutions.Identity.Domain.deps.json
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/bin/Debug/netstandard2.0/N17Solutions.Identity.Domain.dll
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/bin/Debug/netstandard2.0/N17Solutions.Identity.Domain.pdb
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/Domain.csproj.CoreCompileInputs.cache
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/N17Solutions.Identity.Domain.dll
+/Users/wooderz/Development/N17 Solutions/Identity/Identity/Domain/obj/Debug/netstandard2.0/N17Solutions.Identity.Domain.pdb

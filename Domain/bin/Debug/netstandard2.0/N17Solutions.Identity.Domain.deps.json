@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "416fa79f8f8a3d7a7912baf32f58d589cd36f8e6"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "N17Solutions.Identity.Domain/1.0.0": {
+        "dependencies": {
+          "N17Solutions.Infrastructure.Domain": "1.0.0-prerelease.1",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "N17Solutions.Identity.Domain.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
+        "dependencies": {
+          "RT.Comb": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/N17Solutions.Infrastructure.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "RT.Comb/2.3.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.2/RT.Comb.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "N17Solutions.Identity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "N17Solutions.Infrastructure.Domain/1.0.0-prerelease.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2kKyyF9uhN0AlfCsC9Hlp4DF0DJCs1tChq+4cD8LrB12sLloU9I1gf1FN7628BukJUSzHiUY1xYSn35ejatnsA==",
+      "path": "n17solutions.infrastructure.domain/1.0.0-prerelease.1",
+      "hashPath": "n17solutions.infrastructure.domain.1.0.0-prerelease.1.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "RT.Comb/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TS0zWccTfpaqreBKvWdjk6FwZJ6m7ZCdExihqNHU0fJNNqw4CpOnqczPxinTmR7z8j5brluzL7mNNJb95oztPg==",
+      "path": "rt.comb/2.3.0",
+      "hashPath": "rt.comb.2.3.0.nupkg.sha512"
+    }
+  }
+}
